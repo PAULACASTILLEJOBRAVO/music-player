@@ -80,6 +80,15 @@ import MagicImagen from './img/Magic.webp'
 import MrBlueSkyAudio from './music/MrBlueSky.mp3'
 import MrBlueSkyImagen from './img/MrBlueSky.jpeg'
 
+import CenturiesAudio from './music/Centuries.mp3'
+import CenturiesImagen from './img/Centuries.jpg'
+
+import TheOtherSideAudio from './music/TheOtherSide.mp3'
+import TheOtherSideImagen from './img/TheOtherSide.jpg'
+
+import SalvationAudio from './music/Salvation.mp3'
+import SalvationImagen from './img/Salvation.jpeg'
+
 import { v4 as uuidv4 } from "uuid"; 
 function chillHop() { 
 return [ 
@@ -322,6 +331,33 @@ return [
 	cover: MrBlueSkyImagen, 
 	artist: "???", 
 	audio: MrBlueSkyAudio, 
+	color: ["#205950", "#2ab3bf"], 
+	id: uuidv4(), 
+	active: false, 
+	},
+	{ 
+	name: "Centuries", 
+	cover: CenturiesImagen, 
+	artist: "Fall out boy", 
+	audio: CenturiesAudio, 
+	color: ["#205950", "#2ab3bf"], 
+	id: uuidv4(), 
+	active: false, 
+	},
+	{ 
+	name: "The other side", 
+	cover: TheOtherSideImagen, 
+	artist: "The greatest Showman", 
+	audio: TheOtherSideAudio, 
+	color: ["#205950", "#2ab3bf"], 
+	id: uuidv4(), 
+	active: false, 
+	},
+	{ 
+	name: "Salvation", 
+	cover: SalvationImagen, 
+	artist: "Skillet", 
+	audio: SalvationAudio, 
 	color: ["#205950", "#2ab3bf"], 
 	id: uuidv4(), 
 	active: false, 
